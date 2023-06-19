@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(245, 213, 173);
+}
+#b1{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding: 5px 50px;
+    animation: b1-spin 0.1s infinite delay linear direction fill-mode;
+    
+}
+/* @media (prefers-reduced-motion: no-preference) {
+    #b1 {
+      animation: b1-spin infinite 10s linear;
+    }
+}     */
+/* @keyframes b1-spin {
+    from{
+        transform: rotate(0deg);
+    }    
+    to{
+        transform: rotate(360deg);
+
+    }
+} */
+#b1:hover{
+    background-color: whitesmoke;
+    color:black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
