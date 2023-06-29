@@ -1,2 +1,1 @@
-# ReactJs
-To view source code of projects, please go to branches
+# To view the source code of projects, please go to the branches
